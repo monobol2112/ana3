@@ -1,0 +1,39 @@
+body {color: white;
+background-color:pink;
+font-family: Arial, Helvetica, sans-serif;}
+
+
+.container {display: flex;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 10px;
+  height: 600px;
+  flex-direction: row-reverse;
+}
+
+.item{
+  width: 200px;
+  height: 200px;
+  background-color: crimson;}
+
+
+ ul {display:flex;
+    justify-content: center;
+list-style-type: none; 
+  align-items: start;   
+padding: 16px;                 }
+
+a {color:white;
+
+
+text-decoration: none;}
+
+          img {border-radius: 95%;
+
+border: solid palevioletred;}
+
+.center {text-align:center;}
+
+nav a:hover {color: blueviolet;}
